@@ -34,7 +34,7 @@ void DLOzTOR::String::operator=(const char* str) {
 namespace DLOzTOR {
 	std::ostream& operator<<(std::ostream& os, DLOzTOR::String& str)
 	{
-		os << str.To_csting();
+		os << str.data ;
 		return os;
 	}
 }
